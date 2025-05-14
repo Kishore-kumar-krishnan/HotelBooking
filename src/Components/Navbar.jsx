@@ -126,6 +126,16 @@ const Navbar = () => {
                     Login
                 </button>}
             </div>
+
+
+
+
+
+
+
+
+
+            
         </nav>
 
     );
