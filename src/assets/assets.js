@@ -184,6 +184,17 @@ export const hotelDummyData = [
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
 },
+{
+    "_id": "67f76393197ac559e4089b",
+    "name": "Mayori",
+    "address": "Main Road  123 Street , 23 Colony",
+    "contact": "+0123456789",
+    "owner": userDummyData,
+    "city": "New York",
+    "createdAt": "2025-04-10T06:22:11.663Z",
+    "updatedAt": "2025-04-10T06:22:11.663Z",
+    "__v": 0
+},
 
 ]
 
@@ -192,7 +203,7 @@ export const roomsDummyData = [
     {
         "_id": "67f7647c197ac559e4089b96",
         "hotel": hotelDummyData[0],
-        "roomType": "Double Bed",
+        "roomType": "Luxury Room",
         "pricePerNight": 399,
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
         "images": [roomImg1, roomImg2, roomImg3, roomImg4],
@@ -237,9 +248,21 @@ export const roomsDummyData = [
         "updatedAt": "2025-04-10T06:24:06.285Z",
         "__v": 0
     },
+     {
+        "_id": "67f7647c197ac559e4089b9",
+        "hotel": hotelDummyData[4],
+        "roomType": "Family Suite",
+        "pricePerNight": 399,
+        "amenities": ["Room Service", "Mountain View", "Pool Access"],
+        "images": [roomImg1, roomImg2, roomImg3, roomImg4],
+        "isAvailable": true,
+        "createdAt": "2025-04-10T06:26:04.013Z",
+        "updatedAt": "2025-04-10T06:26:04.013Z",
+        "__v": 0
+    },
     {
         "_id": "67f763d8197ac559e4089b7a",
-        "hotel": hotelDummyData[4],
+        "hotel": hotelDummyData[5],
         "roomType": "Single Bed",
         "pricePerNight": 199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
